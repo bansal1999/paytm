@@ -46,7 +46,7 @@ router.post("signup", async (req, res) => {
     JWT_SECRET
   );
 
-  //   Create a new Account
+  //   Create a new Account with a random balance 
   await Account.create({
     userId,
     balance: 1 + Math.random() * 10000,
