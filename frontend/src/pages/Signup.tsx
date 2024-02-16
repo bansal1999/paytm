@@ -16,7 +16,7 @@ export const Signup = () => {
           <InputBox placeholder="Doe" label={"Last Name"} />
           <InputBox placeholder="shikhar@gmail.com" label={"Email"} />
           <InputBox placeholder="123456" label={"Password"} />
-          <div className="pt-4">{/* <Button label={"Sign up"} /> */}</div>
+          <div className="pt-4"><Button label={"Sign up"} onClick={""}/></div>
           <BottomWarning
             label={"Already have an account?"}
             buttonText={"Sign in"}
